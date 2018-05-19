@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bitter', serif;
+}
+
+p {
+
+  > a {
+    color: $medium-blue;
+  }
+}
+
+a {
+  color: $dark-blue;
+  background-color: transparent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    outline-width: 0;
+  }
+
+  &:active {
+    outline-width: 0;
+  }
+}
+
+td {
+  font-size: 16px;
+}

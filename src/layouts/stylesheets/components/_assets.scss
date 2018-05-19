@@ -1,0 +1,34 @@
+.download_icon {
+  margin-bottom: 0;
+  padding-right: .6rem;
+  padding-top: .25rem;
+
+  &:hover {
+    transform: translate(-1.5px, -1.5px);
+  }
+}
+
+.contact_icons {
+  text-align: center;
+}
+
+.twitter_icon {
+  background-color: $light-grey;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.github_icon {
+  background-color: $light-grey;
+  padding: 5px;
+  border-radius: 20%;
+  margin-left: 10px;
+}
+
+.gif_container {
+  text-align: center;
+}
+
+.hodl_gif {
+  max-height: 500px;
+}
